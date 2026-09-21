@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B & W | Our Engagement</title>
+
+    <meta
+        name="description"
+        content="You are warmly invited to celebrate the engagement of B & W."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500&family=Great+Vibes&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         MUSIC
+    ========================================== -->
+
+    <audio id="backgroundMusic" loop>
+        <source src="music/song.mp3" type="audio/mpeg">
+    </audio>
+
+    <button
+        class="music-button"
+        id="musicButton"
+        aria-label="Toggle music"
+    >
+        <span class="music-icon">♫</span>
+        <span id="musicText">Music</span>
+    </button>
+
+
+    <!-- =========================================
+         FLOATING BOTANICAL ELEMENTS
+    ========================================== -->
+
+    <div class="floating-flower flower-one">✿</div>
+    <div class="floating-flower flower-two">❀</div>
+    <div class="floating-flower flower-three">✿</div>
+    <div class="floating-flower flower-four">❁</div>
+
+
+    <!-- =========================================
+         ENVELOPE INTRO
+    ========================================== -->
+
+    <div class="envelope-screen" id="envelopeScreen">
+
+        <div class="envelope-background"></div>
+
+        <div class="envelope-content">
+
+            <p class="small-caps">
+                TOGETHER WITH THEIR FAMILIES
+            </p>
+
+            <div class="monogram">
+                B <span>&</span> W
+            </div>
+
+            <p class="invitation-line">
+                invite you to celebrate
+            </p>
+
+            <h1>
+                Our Engagement
+            </h1>
+
+            <div class="ornament">
+                <span></span>
+                ❦
+                <span></span>
+            </div>
+
+            <button class="open-button" id="openInvitation">
+                <span>Open Invitation</span>
+                <span class="arrow">↓</span>
+            </button>
+
+        </div>
+
+        <p class="scroll-hint">
+            A little celebration of love
+        </p>
+
+    </div>
+
+
+    <!-- =========================================
+         MAIN INVITATION
+    ========================================== -->
+
+    <main id="invitation">
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero section">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content reveal">
+
+                <p class="small-caps">
+                    THE BEGINNING OF FOREVER
+                </p>
+
+                <div class="large-monogram">
+                    B <span>&</span> W
+                </div>
+
+                <p class="script-text">
+                    are getting engaged
+                </p>
+
+                <!-- CHANGE THIS -->
+                <p class="hero-date">
+                    00 · 00 · 2026
+                </p>
+
+                <div class="ornament">
+                    <span></span>
+                    ❦
+                    <span></span>
+                </div>
+
+                <button
+                    class="scroll-button"
+                    onclick="scrollToSection('welcome')"
+                >
+                    Discover our story
+                    <span>↓</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             WELCOME
+        ====================================== -->
+
+        <section class="welcome section" id="welcome">
+
+            <div class="botanical botanical-left">❦</div>
+
+            <div class="content-container reveal">
+
+                <p class="small-caps">
+                    WITH JOYFUL HEARTS
+                </p>
+
+                <h2>
+                    Two hearts,<br>
+                    one beautiful beginning.
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <p class="body-text">
+                    Some moments are too beautiful to keep to
+                    ourselves. We would be honoured to have
+                    you with us as we celebrate the beginning
+                    of this new chapter together.
+                </p>
+
+                <p class="signature">
+                    B & W
+                </p>
+
+            </div>
+
+            <div class="botanical botanical-right">❧</div>
+
+        </section>
+
+
+        <!-- =====================================
+             OUR STORY
+        ====================================== -->
+
+        <section class="story section">
+
+            <div class="content-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="small-caps">
+                        OUR LITTLE STORY
+                    </p>
+
+                    <h2>
+                        From this moment...
+                    </h2>
+
+                </div>
+
+
+                <div class="story-grid">
+
+                    <div class="story-image reveal">
+                        <img
+                            src="images/couple-1.jpg"
+                            alt="B and W"
+                        >
+                    </div>
+
+
+                    <div class="story-text reveal">
+
+                        <span class="story-number">
+                            01
+                        </span>
+
+                        <h3>
+                            And so it begins.
+                        </h3>
+
+                        <p>
+                            Add your own story here. Tell your
+                            guests a little about how you met,
+                            your favourite memory together, or
+                            the journey that brought you here.
+                        </p>
+
+                        <p>
+                            Keep it personal, warm and
+                            unmistakably yours.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             EVENT DETAILS
+        ====================================== -->
+
+        <section class="details section">
+
+            <div class="content-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="small-caps">
+                        PLEASE JOIN US
+                    </p>
+
+                    <h2>
+                        The Celebration
+                    </h2>
+
+                    <p class="body-text">
+                        We would love to celebrate this
+                        special day with you.
+                    </p>
+
+                </div>
+
+
+                <div class="details-grid">
+
+                    <div class="detail-card reveal">
+
+                        <div class="detail-icon">
+                            ♡
+                        </div>
+
+                        <p class="small-caps">
+                            DATE
+                        </p>
+
+                        <!-- CHANGE THIS -->
+                        <h3>
+                            Saturday<br>
+                            00 Month 2026
+                        </h3>
+
+                    </div>
+
+
+                    <div class="detail-card reveal">
+
+                        <div class="detail-icon">
+                            ◷
+                        </div>
+
+                        <p class="small-caps">
+                            TIME
+                        </p>
+
+                        <!-- CHANGE THIS -->
+                        <h3>
+                            00:00 PM<br>
+                            until 00:00 PM
+                        </h3>
+
+                    </div>
+
+
+                    <div class="detail-card reveal">
+
+                        <div class="detail-icon">
+                            ❦
+                        </div>
+
+                        <p class="small-caps">
+                            VENUE
+                        </p>
+
+                        <!-- CHANGE THIS -->
+                        <h3>
+                            Your Venue<br>
+                            Brunei
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CHANGE GOOGLE MAPS LINK -->
+                <a
+                    href="https://www.google.com/maps"
+                    target="_blank"
+                    rel="noopener"
+                    class="outline-button reveal"
+                >
+                    View Location
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             COUNTDOWN
+        ====================================== -->
+
+        <section class="countdown-section section">
+
+            <div class="content-container reveal">
+
+                <p class="small-caps">
+                    UNTIL WE CELEBRATE
+                </p>
+
+                <h2>
+                    Counting down...
+                </h2>
+
+                <div class="countdown">
+
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+
+                    <div class="countdown-divider">
+                        :
+                    </div>
+
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+
+                    <div class="countdown-divider">
+                        :
+                    </div>
+
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <small>Minutes</small>
+                    </div>
+
+                    <div class="countdown-divider">
+                        :
+                    </div>
+
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <small>Seconds</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             GALLERY
+        ====================================== -->
+
+        <section class="gallery section">
+
+            <div class="content-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="small-caps">
+                        A FEW MEMORIES
+                    </p>
+
+                    <h2>
+                        Moments we treasure.
+                    </h2>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large reveal">
+                        <img
+                            src="images/couple-1.jpg"
+                            alt="B and W"
+                        >
+                    </div>
+
+                    <div class="gallery-item reveal">
+                        <img
+                            src="images/couple-2.jpg"
+                            alt="B and W"
+                        >
+                    </div>
+
+                    <div class="gallery-item reveal">
+                        <img
+                            src="images/couple-3.jpg"
+                            alt="B and W"
+                        >
+                    </div>
+
+                    <div class="gallery-item gallery-wide reveal">
+                        <img
+                            src="images/garden.jpg"
+                            alt="Garden"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             DRESS CODE
+        ====================================== -->
+
+        <section class="dress-code section">
+
+            <div class="content-container reveal">
+
+                <p class="small-caps">
+                    WHAT TO WEAR
+                </p>
+
+                <h2>
+                    Garden Formal
+                </h2>
+
+                <div class="dress-illustration">
+                    <span>✿</span>
+                    <span>♡</span>
+                    <span>❀</span>
+                </div>
+
+                <p class="body-text">
+                    Soft colours, elegant silhouettes and
+                    garden-inspired details are warmly
+                    welcomed.
+                </p>
+
+                <div class="colour-palette">
+
+                    <div class="colour">
+                        <span class="swatch blush"></span>
+                        <small>Blush</small>
+                    </div>
+
+                    <div class="colour">
+                        <span class="swatch lilac"></span>
+                        <small>Lilac</small>
+                    </div>
+
+                    <div class="colour">
+                        <span class="swatch sage"></span>
+                        <small>Sage</small>
+                    </div>
+
+                    <div class="colour">
+                        <span class="swatch ivory"></span>
+                        <small>Ivory</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             RSVP
+        ====================================== -->
+
+        <section class="rsvp section">
+
+            <div class="content-container reveal">
+
+                <p class="small-caps">
+                    KINDLY RESPOND
+                </p>
+
+                <h2>
+                    Will you join us?
+                </h2>
+
+                <p class="body-text">
+                    Your presence would mean so much to us.
+                    Kindly let us know if you'll be celebrating
+                    with us.
+                </p>
+
+
+                <!-- CHANGE THIS TO YOUR RSVP FORM -->
+                <a
+                    href="YOUR_GOOGLE_FORM_LINK"
+                    target="_blank"
+                    rel="noopener"
+                    class="primary-button"
+                >
+                    RSVP
+                </a>
+
+
+                <p class="rsvp-note">
+                    Kindly respond by<br>
+                    <strong>00 Month 2026</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CLOSING
+        ====================================== -->
+
+        <section class="closing section">
+
+            <div class="closing-background"></div>
+
+            <div class="closing-content reveal">
+
+                <p class="small-caps">
+                    UNTIL THEN
+                </p>
+
+                <div class="closing-monogram">
+                    B <span>&</span> W
+                </div>
+
+                <p class="script-text">
+                    With love, always.
+                </p>
+
+                <div class="ornament">
+                    <span></span>
+                    ❦
+                    <span></span>
+                </div>
+
+                <p class="closing-thank-you">
+                    We cannot wait to celebrate<br>
+                    with you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
